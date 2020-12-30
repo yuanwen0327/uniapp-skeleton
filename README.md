@@ -2,33 +2,36 @@
   <h1>uniapp-skeleton</h1>
 </div>
 
-能在[uniapp](https://github.com/dcloudio/uni-app)中使用微信开发者工具生成的骨架屏的命令行工具。
+一个命令行工具，能使微信开发者工具中生成的骨架屏在[uni-app](https://github.com/dcloudio/uni-app)中使用。
 
+![骨架屏](https://cdn.jsdelivr.net/gh/yuanwen0327/tuchuang@master/uPic/1609291164860910.gif)
 
-<h2 align="center">安装</h2>
+-------------
+## 安装
 
 ```bash
 npm install -D uniapp-skeleton
 ```
+-------------
+## 使用
 
-<h2 align="center">使用</h2>
-首先在微信开发者工具中生成页面骨架屏
+首先在微信开发者工具中生成页面骨架屏  
+
+![生成骨架屏](https://cdn.jsdelivr.net/gh/yuanwen0327/tuchuang@master/uPic/WX20201230-101144.png)
 
 然后在终端的项目目录中执行
 ```bash
 uniapp-skeleton -p "/pages/index/index"
 ```
--p后面的参数为要生成骨架屏的小程序页面的路径，此时会在项目的`/src/pages/index/`目录中生成`index.skeleton.vue`
+`-p`后面的参数为要生成骨架屏的小程序页面的路径，此时会在项目的`/src/pages/index/`目录中生成`index.skeleton.vue`
 
-最后在`index.vue`页面文件中引入即可。
+最后在`index.vue`页面文件中引入改组件即可。
 
-<h2 align="center">注意</h2>
+-------------
+## 建议
 
 -  开发者工具生成的骨架屏有时候并不完美，需要手动微调
 - 可以将生成的骨架屏文件里的单个结构拆分出来使用
   
 
-
-
-附上小程序骨架屏文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
-
+附上原生小程序骨架屏文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
