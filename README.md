@@ -10,7 +10,7 @@
 ## 安装
 
 ```bash
-npm install -D uniapp-skeleton
+npm install -g uniapp-skeleton
 ```
 -------------
 ## 使用

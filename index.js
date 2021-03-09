@@ -24,7 +24,7 @@ program.parse(process.argv);
 
 if (program.path) {
     // console.log(shell.pwd().stdout, program.path)
-    const pageBasePath = path.join(shell.pwd().stdout, 'dist/dev/mp-weixin', path.resolve(program.path))
+    const pageBasePath = path.join(shell.pwd().stdout, 'dist/dev/mp-weixin', program.path)
     const pageSkeletonWXMLPath = pageBasePath + '.skeleton.wxml'
     const pageSkeletonWXSSPath = pageBasePath + '.skeleton.wxss'
     // console.log(pageBasePath,pageSkeletonWXMLPath,pageSkeletonWXSSPath)
